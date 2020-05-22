@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.269455">
+<testcase classname="Application verification check" name="Verify the landing page of the application" time="0.26726">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)&#13;&#10;&#9;at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:4)&#13;&#10;"><![CDATA[Given user is on the application landing page...............................failed
+And Verify user is landed on the application................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)
+	at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Application verification check" name="application login" time="0.00103">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)&#13;&#10;&#9;at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:10)&#13;&#10;"><![CDATA[Given user is on the application landing page...............................failed
+Then login freecrm with credentials.........................................skipped
+Then verify user is on the home page........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)
+	at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Application verification check" name="Verify Contacts page" time="0.001165">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)&#13;&#10;&#9;at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:15)&#13;&#10;"><![CDATA[Given user is on the application landing page...............................failed
+Then login freecrm with credentials.........................................skipped
+When user enters the contact details........................................skipped
+And saves all the details...................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.cucumberPOM.Stepdefinitions.LoginSteps.user_is_on_the_application_landing_page(LoginSteps.java:36)
+	at ✽.Given user is on the application landing page(D:/eclipse-workspace/CucumberPOM/src/main/java/com/cucumberPOM/features/Application.feature:15)
+]]></failure>
+</testcase>
+</testsuite>
